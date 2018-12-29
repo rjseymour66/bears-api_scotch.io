@@ -22,7 +22,7 @@ const Bear = require('./app/models/bear')
 // DATABASE
 // =========================================================
 const mongoose = require('mongoose')
-mongoose.connect("mongodb://admin:Maryjean52@ds117859.mlab.com:17859/bear-db", () => {
+mongoose.connect("mongodb://admin:momsnameandbdaywithoutsymbol@ds117859.mlab.com:17859/bear-db", () => {
   console.log('Database connected!');
 })
 
